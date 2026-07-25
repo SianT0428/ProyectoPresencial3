@@ -83,3 +83,20 @@ button{
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
+button:hover{
+    background-color: var(--amarillo);
+    color: var(--oscuro);
+}
+
+@media(max-width: 768px){
+    header{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
