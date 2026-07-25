@@ -59,3 +59,27 @@ nav {
     overflow: hidden;
     transition: transform 0.3s ease;
 }
+
+.card img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+button{
+    background-color: var(--azul);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
